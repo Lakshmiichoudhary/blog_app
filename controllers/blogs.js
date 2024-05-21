@@ -47,9 +47,6 @@ exports.addCommentToBlog = async (req, res, next) => {
     }
 };
 
-
-
-
 exports.getAllCommentsOfBlog = async (req, res, next) => {
     try {
         const { blogId } = req.params;
